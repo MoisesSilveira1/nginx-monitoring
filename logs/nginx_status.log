@@ -746,3 +746,71 @@ server accepts handled requests
 Reading: 0 Writing: 1 Waiting: 0 
 
 == Fim do Script ==
+== Verificando o status do Nginx ==
+Nginx está ativo.
+
+== Status Detalhado do Nginx ==
+● nginx.service - A high performance web server and a reverse proxy server
+     Loaded: loaded (/usr/lib/systemd/system/nginx.service; enabled; preset: enabled)
+     Active: active (running) since Thu 2024-12-19 00:20:07 -03; 21h ago
+       Docs: man:nginx(8)
+    Process: 8602 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
+    Process: 8603 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
+   Main PID: 8605 (nginx)
+      Tasks: 9 (limit: 4563)
+     Memory: 6.4M ()
+     CGroup: /system.slice/nginx.service
+             ├─8605 "nginx: master process /usr/sbin/nginx -g daemon on; master_process on;"
+             ├─8606 "nginx: worker process"
+             ├─8607 "nginx: worker process"
+             ├─8608 "nginx: worker process"
+             ├─8609 "nginx: worker process"
+             ├─8610 "nginx: worker process"
+             ├─8611 "nginx: worker process"
+             ├─8612 "nginx: worker process"
+             └─8613 "nginx: worker process"
+
+Dec 19 00:20:07 Mano systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+Dec 19 00:20:07 Mano systemd[1]: Started nginx.service - A high performance web server and a reverse proxy server.
+
+== Métricas de Conexão do Nginx ==
+Active connections: 1 
+server accepts handled requests
+ 26 26 26 
+Reading: 0 Writing: 1 Waiting: 0 
+
+== Fim do Script ==
+== Verificando o status do Nginx ==
+Nginx está ativo.
+
+== Status Detalhado do Nginx ==
+● nginx.service - A high performance web server and a reverse proxy server
+     Loaded: loaded (/usr/lib/systemd/system/nginx.service; enabled; preset: enabled)
+     Active: active (running) since Thu 2024-12-19 00:20:07 -03; 21h ago
+       Docs: man:nginx(8)
+    Process: 8602 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
+    Process: 8603 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
+   Main PID: 8605 (nginx)
+      Tasks: 9 (limit: 4563)
+     Memory: 6.4M ()
+     CGroup: /system.slice/nginx.service
+             ├─8605 "nginx: master process /usr/sbin/nginx -g daemon on; master_process on;"
+             ├─8606 "nginx: worker process"
+             ├─8607 "nginx: worker process"
+             ├─8608 "nginx: worker process"
+             ├─8609 "nginx: worker process"
+             ├─8610 "nginx: worker process"
+             ├─8611 "nginx: worker process"
+             ├─8612 "nginx: worker process"
+             └─8613 "nginx: worker process"
+
+Dec 19 00:20:07 Mano systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+Dec 19 00:20:07 Mano systemd[1]: Started nginx.service - A high performance web server and a reverse proxy server.
+
+== Métricas de Conexão do Nginx ==
+Active connections: 1 
+server accepts handled requests
+ 27 27 27 
+Reading: 0 Writing: 1 Waiting: 0 
+
+== Fim do Script ==
