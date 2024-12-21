@@ -41,7 +41,7 @@ nginx-monitoring/
 │
 └── README.md            # Documentação principal do projeto
 
-
+```
 ---
 
 ## 🛠️ **Pré-requisitos**
@@ -96,5 +96,5 @@ server accepts handled requests
 Reading: 0 Writing: 1 Waiting: 0
 
 == Fim do Script ==
-
+```
 ---
