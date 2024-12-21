@@ -5,9 +5,9 @@ Este projeto configura um ambiente de monitoramento básico para o servidor **Ng
 ---
 
 ## 👨‍💻 **Autor**
-Moisés Silveira - Responsável pelo desenvolvimento.
-Email: moisessilveiramano@gmail.com.
-LinkedIn: www.linkedin.com/in/moisés-silveira-0477a8237.
+   **Moisés Silveira** - Responsável pelo desenvolvimento.
+   **Email:** moisessilveiramano@gmail.com.
+   **LinkedIn:** www.linkedin.com/in/moisés-silveira-0477a8237.
 
 ---
 
@@ -23,6 +23,7 @@ O objetivo do projeto é:
 ## 📁 **Estrutura do Projeto**
 
 Estrutura de Pastas do Repositório
+```bash
 
 nginx-monitoring/
 │
