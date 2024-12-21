@@ -4,10 +4,10 @@ Este projeto configura um ambiente de monitoramento básico para o servidor **Ng
 
 ---
 
-## 👨‍💻 Autor
-Seu Moisés Silveira - Responsável pelo desenvolvimento
-Email: moisessilveiramano@gmail.com
-LinkedIn: www.linkedin.com/in/moisés-silveira-0477a8237
+## 👨‍💻 **Autor**
+Moisés Silveira - Responsável pelo desenvolvimento.
+Email: moisessilveiramano@gmail.com.
+LinkedIn: www.linkedin.com/in/moisés-silveira-0477a8237.
 
 ---
 
@@ -21,6 +21,24 @@ O objetivo do projeto é:
 ---
 
 ## 📁 **Estrutura do Projeto**
+
+Estrutura de Pastas do Repositório
+
+nginx-monitoring/
+│
+├── configs/             # Arquivos de configuração do Nginx
+│   └── status.conf
+│
+├── scripts/             # Scripts de automação
+│   └── nginx_status.sh
+│
+├── logs/                # Logs gerados pelo cron job ou execução do script
+│   └── nginx_status.log
+│
+├── images/              # Capturas de tela ou diagramas (opcional)
+│   └── exemplo.png
+│
+└── README.md            # Documentação principal do projeto
 
 
 ---
@@ -38,7 +56,9 @@ sudo apt install nginx -y
 
 ---
 
-### 🖼️ Demonstração
+### 🖼️ **Demonstração**
+
+---
 Exemplo de Saída do Script: 
 
 == Verificando o status do Nginx ==
