@@ -4,6 +4,13 @@ Este projeto configura um ambiente de monitoramento básico para o servidor **Ng
 
 ---
 
+## 👨‍💻 Autor
+Seu Moisés Silveira - Responsável pelo desenvolvimento
+Email: moisessilveiramano@gmail.com
+LinkedIn: www.linkedin.com/in/moisés-silveira-0477a8237
+
+---
+
 ## 📋 **Descrição do Projeto**
 
 O objetivo do projeto é:
@@ -29,8 +36,9 @@ O objetivo do projeto é:
 sudo apt update
 sudo apt install nginx -y
 
+---
 
-🖼️ Demonstração
+### 🖼️ Demonstração
 Exemplo de Saída do Script: 
 
 == Verificando o status do Nginx ==
@@ -68,7 +76,4 @@ Reading: 0 Writing: 1 Waiting: 0
 
 == Fim do Script ==
 
-👨‍💻 Autor
-Seu Moisés Silveira - Responsável pelo desenvolvimento
-Email: moisessilveiramano@gmail.com
-LinkedIn: www.linkedin.com/in/moisés-silveira-0477a8237
+---
