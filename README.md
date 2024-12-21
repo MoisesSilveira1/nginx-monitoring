@@ -5,9 +5,9 @@ Este projeto configura um ambiente de monitoramento básico para o servidor **Ng
 ---
 
 ## 👨‍💻 **Autor**
-   **Moisés Silveira** - Responsável pelo desenvolvimento.
-   **Email:** moisessilveiramano@gmail.com.
-   **LinkedIn:** www.linkedin.com/in/moisés-silveira-0477a8237.
+1. **Moisés Silveira** - Responsável pelo desenvolvimento.
+2. **Email:** (moisessilveiramano@gmail.com)
+3. **LinkedIn:** (www.linkedin.com/in/moisés-silveira-0477a8237)
 
 ---
 
@@ -54,7 +54,7 @@ nginx-monitoring/
 ```bash
 sudo apt update
 sudo apt install nginx -y
-
+```
 ---
 
 ### 🖼️ **Demonstração**
@@ -62,6 +62,7 @@ sudo apt install nginx -y
 ---
 Exemplo de Saída do Script: 
 
+```bash
 == Verificando o status do Nginx ==
 Nginx está ativo.
 
