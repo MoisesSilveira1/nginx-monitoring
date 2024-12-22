@@ -166,28 +166,3 @@ Sinta-se à vontade para contribuir com o projeto!
 
 
 ---
-
-## **3. Adicionar Imagens e Diagramas**
-
-1. **Capturas de Tela**: Adicione imagens que demonstrem a saída do script ou diagramas para explicar o projeto.  
-   - Salve-as na pasta `images/`.
-   - Adicione no README usando o Markdown:
-     ```markdown
-     ![Exemplo de Saída](images/exemplo.png)
-     ```
-
-2. **Diagramas**: Utilize ferramentas como **draw.io**, **Lucidchart** ou até mesmo **Markdown** para criar diagramas.
-
----
-
-## **4. Licença do Projeto**
-
-Inclua uma licença para o repositório, como a **MIT License**. Crie um arquivo chamado `LICENSE` na raiz do projeto e adicione o conteúdo da licença desejada.
-
----
-
-## **5. Enviar o Projeto para o GitHub**
-
-1. Adicione todos os arquivos:
-   ```bash
-   git add .
