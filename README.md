@@ -1,4 +1,4 @@
-# 🚀 Monitoramento do Nginx com Script Bash
+# 🚀 Monitoramento do Nginx 
 
 Este projeto configura um ambiente de monitoramento básico para o servidor **Nginx** usando um **script Bash** e o módulo `stub_status`. O repositório inclui configurações, automação e documentação detalhada.
 
